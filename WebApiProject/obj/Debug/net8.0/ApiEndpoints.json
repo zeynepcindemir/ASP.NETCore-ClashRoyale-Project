@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "WebApiProject.Controllers.CardsController",
+    "Method": "GetCards",
+    "RelativePath": "api/cards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProject.Controllers.CardsController",
+    "Method": "CreateCard",
+    "RelativePath": "api/cards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "card",
+        "Type": "WebApiProject.Dto.CreateCardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProject.Controllers.CardsController",
+    "Method": "GetCard",
+    "RelativePath": "api/cards/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProject.Controllers.CardsController",
+    "Method": "UpdateCard",
+    "RelativePath": "api/cards/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "card",
+        "Type": "WebApiProject.Dto.UpdateCardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProject.Controllers.CardsController",
+    "Method": "DeleteCard",
+    "RelativePath": "api/cards/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
